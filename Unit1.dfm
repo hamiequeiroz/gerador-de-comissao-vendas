@@ -1,0 +1,165 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 
+    'Gerador de Comiss'#227'o de Vendas  by: Mieeh hamiequeiroz@hotmail.co' +
+    'm'
+  ClientHeight = 414
+  ClientWidth = 528
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 188
+    Top = 84
+    Width = 31
+    Height = 13
+    Caption = 'Valor: '
+  end
+  object Label4: TLabel
+    Left = 76
+    Top = 373
+    Width = 61
+    Height = 19
+    Caption = 'TOTAL: '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 278
+    Top = 372
+    Width = 92
+    Height = 19
+    Caption = 'COMISS'#195'O: '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Edit2: TEdit
+    Left = 222
+    Top = 81
+    Width = 70
+    Height = 21
+    TabOrder = 2
+    Text = 'Edit2'
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Top = 8
+    Width = 497
+    Height = 57
+    Caption = 'Info. Vendas'
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 9
+      Top = 26
+      Width = 50
+      Height = 15
+      Caption = 'Vendedor:'
+    end
+    object Label3: TLabel
+      Left = 260
+      Top = 26
+      Width = 146
+      Height = 15
+      Caption = 'Porcentagem da Comiss'#231#227'o: '
+    end
+    object Edit1: TEdit
+      Left = 61
+      Top = 21
+      Width = 172
+      Height = 23
+      TabOrder = 0
+      Text = 'Edit1'
+    end
+    object Edit3: TEdit
+      Left = 401
+      Top = 23
+      Width = 76
+      Height = 21
+      TabOrder = 1
+      Text = 'Edit2'
+    end
+  end
+  object Edit4: TEdit
+    Left = 369
+    Top = 368
+    Width = 121
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    Text = 'Edit4'
+  end
+  object Button1: TButton
+    Left = 305
+    Top = 79
+    Width = 89
+    Height = 25
+    Caption = 'Incluir'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object DateTimePicker1: TDateTimePicker
+    Left = 81
+    Top = 81
+    Width = 98
+    Height = 21
+    Date = 41679.693538101850000000
+    Time = 41679.693538101850000000
+    TabOrder = 4
+  end
+  object StringGrid1: TStringGrid
+    Left = 8
+    Top = 120
+    Width = 494
+    Height = 233
+    ColCount = 4
+    FixedCols = 0
+    RowCount = 59
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    ColWidths = (
+      120
+      86
+      64
+      64)
+  end
+  object Edit5: TEdit
+    Left = 139
+    Top = 369
+    Width = 121
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    Text = 'Edit4'
+  end
+end
